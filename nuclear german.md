@@ -200,7 +200,7 @@ Readme Übersetzungen:
 <kbd>[<img title="Italiano" alt="Italiano" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/it.svg" width="22">](docs/README-it.md)</kbd>
 
 ## Was ist nuclear?
-nuclear ist ein kostenloses Musikstreamingprogramm, welches seinen Inhalt aus kostenlosen Quellen aus dem Internet entnimmt.
+nuclear ist ein kostenloser Streaming-Dienst, welches seinen Inhalt aus kostenlosen Quellen aus dem Internet entnimmt.
 
 Wenn Ihnen [mps-youtube](https://github.com/mps-youtube/mps-youtube) bekannt vor kommt, können sie sich vorstellen, dass nuclear so ähnlich ist, jedoch mit dem Vorteil, dass es eine GUI besitzt.
 Es ähnelt Spotify, jedoch mit einerer größeren und vor allem kostenlosen Musikbibliothek.
