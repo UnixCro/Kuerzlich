@@ -339,3 +339,4 @@ Dies wird mit der Entwicklung des Projekts aktualisiert.
 ## Lizenz
 
 Dieses Programm ist eine freie Software: Sie können es unter den Klauseln folgender Lizenz verteilen und/oder modifizieren: GNU Affero General Public License veröffentlicht von der Free Software Foundation, entweder Version 3 der Lizenz, oder (es ist Ihre Wahl) eine spätere Version.
+
