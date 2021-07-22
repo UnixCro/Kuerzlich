@@ -168,3 +168,4 @@ Diese werden mit der Entwicklung des Projektes aktualisiert.
 ## Lizenz
 
 Dieses Programm steht unter der Lizenz "Freie Software" das bedeutet, dass nicht nur die Sofzware kostenlos genutzt und weiterverbreitet werden darf, sondern auch der Urheber verpflichtet ist den Quellcode offenzulegen. Der Lizenznehmer darf diesen Quellcode dann nicht nur einsehen, sondern auch verändern und den geänderten Quellcode und die daraus resultierende Software weiterverbreiten.
+
