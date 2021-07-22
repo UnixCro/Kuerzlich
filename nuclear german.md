@@ -3,7 +3,7 @@
 # ![nuclear](https://i.imgur.com/oT1006i.png) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a15c4888a63c900f6cc1/maintainability)](https://codeclimate.com/github/nukeop/nuclear/maintainability) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/30750586202742279fa8958a12e519ed)](https://www.codacy.com/app/nukeop/nuclear?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nukeop/nuclear&amp;utm_campaign=Badge_Grade) [![nuclear](https://snapcraft.io//nuclear/badge.svg)](https://snapcraft.io/nuclear) ![Travis](https://api.travis-ci.org/nukeop/nuclear.svg?branch=master)
 
-Ein Musikplayer für Rechner, mit kostenlosem Streaming.
+Ein Musikplayer für Computer, mit kostenlosem Streaming.
 
 ![Showcase](https://i.imgur.com/G9BqIHl.png)
 
@@ -29,17 +29,17 @@ Readme Übersetzungen:
 <kbd>[<img title="Italiano" alt="Italiano" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/it.svg" width="22">](docs/README-it.md)</kbd>
 
 ## Was genau ist nuclear?
-nuclear ist ein kostenloser Streaming-Dienst, welches seinen Inhalt aus kostenlosen Quellen aus dem Internet entnimmt.
+nuclear ist ein kostenloser Streaming-Dienst, welches seinen Inhalt aus kostenlosen Quellen vom Internet entnimmt.
 
-Wenn Ihnen [mps-youtube](https://github.com/mps-youtube/mps-youtube) bekannt vor kommt, können sie sich ungefähr vorstellen, dass nuclear dem ähnelt, jedoch mit dem Vorteil, dass es eine GUI enthält.
-Es ähnelt Spotify, jedoch mit einerer größeren und vor allem kostenlosen Musikbibliothek.
+Wenn Ihnen [mps-youtube](https://github.com/mps-youtube/mps-youtube) bekannt vor kommt, können sie sich ungefähr vorstellen, dass nuclear dem ähnelt, jedoch mit dem Vorteil, dass es eine grafische Oberfläche besitzt.
+Man kann sagen, dass es so wie Spotify ist, jedoch mit einer größeren und vor allem kostenlosen Musikbibliothek.
 
 ## Was ist, wenn mir Electron nicht besonders gefällt?
 Schauen Sie sich [das](docs/electron.md) an.
 
 ## Eigenschaften von nuclear
 
-- Suche und Wiedergabe von Musik aus YouTube (einschließlich Integration von Playlists und [SponsorBlock](https://sponsor.ajay.app/)), Jamendo, Audius und SoundCloud
+- Suche und Wiedergabe von Musik aus YouTube (einschließlich Integration von Playlists und [SponsorBlock](https://sponsor.ajay.app/)), Jamendo, Audius und SoundCloud)
 - Suche nach Alben (unterstützt von Last.fm und Discogs), Albenansicht, automatischer Liedsuche basierend auf Künstler- und Liedname (in Arbeit, kann etwas holprig sein)
 - Musikwarteschlange, die bei Bedarf, als Playlist exportiert werden kann
 - Aufrufen gespeicherter Playlists (als json Datei(en) gespeichert)
@@ -62,7 +62,7 @@ https://nuclearmusic.rtfd.io/
 
 ## Community-verwaltete Pakete
 
-Hier ist eine Liste, welche Pakete von Drittanbieter für die meisten Betriebsysteme beeinhaltet. Die Meisten, werden von ihnen instandgehalten. Wir möchten uns bei den Menschen, die sich um die Pakete kümmern, rechtherzlich bedanken.
+Hier ist eine Liste, die Pakete von Drittanbieter für die meisten Betriebsysteme beeinhaltet. Die Meisten, werden von den Veröffentlichern instandgehalten. Wir bedanken uns rechtherzlich für die Bereitstellung dieser Pakete.
 
 | Pakettyp  | Link                                                    | Instandhalter                                    |
 |:--------------:|:-------------------------------------------------------:|:---------------------------------------------:|
@@ -73,9 +73,9 @@ Hier ist eine Liste, welche Pakete von Drittanbieter für die meisten Betriebsys
 | Snap           | https://snapcraft.io/nuclear                            | [nukeop](https://github.com/nukeop)           |
 | Flatpak        | https://flathub.org/apps/details/org.js.nuclear.Nuclear  | [advaithm](https://github.com/advaithm)       |
 
-Vielen Dank übrigens an [ayyeve](https://github.com/ayyEve), da sie mich (advaithm), ihren Server als Kompiliermaschine benutzen gelassen hat-
+Vielen Dank übrigens an [ayyeve](https://github.com/ayyEve), die mich (advaithm), ihren Server als Kompiliermaschine benutzen gelassen hat.
 ## Community Übersetzungen
-Nuclear wurde bereits in vielen Sprachen übersetzt, dennoch sind wir weiterhin auf der Suche nach neuen Mitwirkenden, die neue Sprachen hinzufügen wollen oder Sätze korrigieren möchten. Hier ist eine Liste von derzeitigen verfügbaren Sprachen, sowie deren Übersetzern.
+Nuclear wurde bereits in vielen Sprachen übersetzt, dennoch sind wir weiterhin auf der Suche, nach neuen Mitwirkenden, die neue Sprachen hinzufügen wollen oder die Qualität des Inhaltes oder ähnliches verbessern möchten. Hier ist eine Liste von derzeitigen verfügbaren Sprachen, sowie deren Übersetzern.
 
 | Sprache             | Mitwirkender                                                                                          |
 |:--------------------:|:----------------------------------------------------------------------------------------------------:|
@@ -119,10 +119,10 @@ $ lerna bootstrap
 $ npm run build
 ```
 
-Anstelle von `build` können Sie auch `build:all` verwenden, um für alle Betriebsysteme zu kompilieren. Die Dateien werden sich in `packages/app/release` befinden.
+Anstelle von `build` können Sie auch `build:all` verwenden, um für alle Betriebsysteme zu kompilieren. Die Dateien werden sich dann in `packages/app/release` befinden.
 
 ---
-Es ist ebenfalls möglich, die Entwicklungsumgebung, mithilfe "Docker Containers" zu benutzen, dies ist jedoch in der Entwicklungsphase.
+Es ist auch möglich, die Entwicklungsumgebung, mithilfe "Docker Containers" zu nutzen, diese ist jedoch in der Entwicklungsphase.
 
 `docker` und `docker-compose` werden benötigt. Sie müssen dem root user eine Verbindung zum X11 Display erlauben, danach können Sie `docker-compose` verwenden.
 
@@ -130,13 +130,13 @@ Es ist ebenfalls möglich, die Entwicklungsumgebung, mithilfe "Docker Containers
 $ xhost SI:localuser:root
 $ sudo docker-compose up dev
 ```
-Ab sofort, ist es möglich auch eine Flatpak Version zu kompilieren. Dazu müssen Sie gobject-introspection und flatpak-builder installieren. Für den Kompilierungsprozess müssen Sie, die für flatpak-buider erforderlichen Laufzeiten und Dependenzen installieren. Sie werden die 19.08 Version dieser Flatpaks benötigen.
+Ab sofort, ist es auch möglich eine Flatpak Version zu kompilieren. Dazu müssen gobject-introspection und flatpak-builder installiert sein. Für den Kompilierungsprozess müssen Sie, die für flatpak-buider erforderlichen Laufzeiten und Dependenzen installieren. Sie werden die 19.08 Version dieser Flatpaks benötigen.
 ```shell
 $ flatpak install flathub org.freedesktop.Platform
 $ flatpak install flathub org.freedesktop.Sdk
 $ flatpak install flathub io.atom.electron.BaseApp
 ```
-Als nächstes, um das Projekt zu kompilieren (benutzen Sie den `--verbose` Parameter, dieser dient für eine detaillierte Ausgabe):
+Als nächstes, um das Projekt zu kompilieren: (Sie können den Parameter `--verbose` benutzen, dieser dient für eine detaillierte Ausgabe)
 ```shell
 $ flatpak-builder build-dir org.js.nuclear.Nuclear.json
 ```
@@ -167,4 +167,4 @@ Diese werden mit der Entwicklung des Projektes aktualisiert.
 
 ## Lizenz
 
-Dieses Programm steht unter der Lizenz "Freie Software" das bedeutet, dass sie nicht nur die Software kostenlos nutzen dürfen sondern auch verändern dürfen.
+Dieses Programm steht unter der Lizenz "Freie Software" das bedeutet, dass nicht nur die Sofzware kostenlos genutzt und weiterverbreitet werden darf, sondern auch der Urheber verpflichtet ist den Quellcode offenzulegen. Der Lizenznehmer darf diesen Quellcode dann nicht nur einsehen, sondern auch verändern und den geänderten Quellcode und die daraus resultierende Software weiterverbreiten.
