@@ -205,10 +205,10 @@ nuclear ist ein kostenloser Streaming-Dienst, welches seinen Inhalt aus kostenlo
 Wenn Ihnen [mps-youtube](https://github.com/mps-youtube/mps-youtube) bekannt vor kommt, können sie sich vorstellen, dass nuclear so ähnlich ist, jedoch mit dem Vorteil, dass es eine GUI besitzt.
 Es ähnelt Spotify, jedoch mit einerer größeren und vor allem kostenlosen Musikbibliothek.
 
-## Was, wenn ich Electron überhaupt nicht ausstehen kann?
-Schauen Sie [das](docs/electron.md) an.
+## Was ist wenn mir Electron nicht besonders gefällt?
+Schauen Sie sich [das](docs/electron.md) an.
 
-## Merkmale
+## Eigenschaften
 
 - Suche und Wiedergabe von Musik aus YouTube (einschließlich Integration von Playlists und [SponsorBlock](https://sponsor.ajay.app/)), Jamendo, Audius und SoundCloud
 - Suche nach Alben (unterstützt von Last.fm und Discogs), Albenansicht, automatischer Liedsuche basierend auf Künstler- und Liedname (in Arbeit, kann etwas holprig sein)
@@ -233,7 +233,7 @@ https://nuclearmusic.rtfd.io/
 
 ## Community-verwaltete Pakete
 
-Hier ist eine Liste von Paketen für diverse Manager, die Meisten, werden von Drittanbietern instandgehalten. Wir möchten uns bei den Leuten, welche sich um die Pakete kümmern, rechtherzlich danken.
+Hier ist eine Liste, welche Pakete von Drittanbieter für die meisten Betriebsysteme beeinhaltet. Die Meisten, werden von ihnen instandgehalten. Wir möchten uns bei den Menschen, die sich um die Pakete kümmern, rechtherzlich danken.
 
 | Pakettyp  | Link                                                    | Instandhalter                                    |
 |:--------------:|:-------------------------------------------------------:|:---------------------------------------------:|
@@ -244,9 +244,9 @@ Hier ist eine Liste von Paketen für diverse Manager, die Meisten, werden von Dr
 | Snap           | https://snapcraft.io/nuclear                            | [nukeop](https://github.com/nukeop)           |
 | Flatpak        | https://flathub.org/apps/details/org.js.nuclear.Nuclear  | [advaithm](https://github.com/advaithm)       |
 
-Vielen Dank an [ayyeve](https://github.com/ayyEve), da sie mich (advaithm), ihren Server als Kompiliermaschine benutzen lassen hat-
+Vielen Dank übrigens an [ayyeve](https://github.com/ayyEve), da sie mich (advaithm), ihren Server als Kompiliermaschine benutzen gelassen hat-
 ## Community Übersetzungen
-Nuclear wurde bereits in diverse Sprachen übersetzt, dennoch sind wir weiterhin auf der Suche nach Mitwirkendenm, welche neue Sprachen hinzufügen wollen oder Texte korrigieren möchten. Hier ist eine Liste von derzeitigen verfügbaren Sprachen, sowie deren Übersetzern.
+Nuclear wurde bereits in vielen Sprachen übersetzt, dennoch sind wir weiterhin auf der Suche nach neuen Mitwirkenden, die neue Sprachen hinzufügen wollen oder Texte korrigieren möchten. Hier ist eine Liste von derzeitigen verfügbaren Sprachen, sowie deren Übersetzern.
 
 | Sprache             | Mitwirkender                                                                                          |
 |:--------------------:|:----------------------------------------------------------------------------------------------------:|
