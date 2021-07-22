@@ -124,7 +124,7 @@ Anstelle von `build` können Sie auch `build:all` verwenden, um für alle Betrie
 ---
 Es ist ebenfalls möglich, die Entwicklungsumgebung, mithilfe "Docker Containers" zu benutzen, dies sollte jedoch als Experimentell betrachtet werden.
 
-`docker` und `docker-compose` werden benötigen. Sie müssen dem root user eine Verbindung zum X11 Display erlauben, danach können Sie `docker-compose` verwenden.
+`docker` und `docker-compose` werden benötigt. Sie müssen dem root user eine Verbindung zum X11 Display erlauben, danach können Sie `docker-compose` verwenden.
 
 ```shell
 $ xhost SI:localuser:root
@@ -167,4 +167,4 @@ Diese werden mit der Entwicklung des Projektes aktualisiert.
 
 ## Lizenz
 
-Dieses Programm ist eine freie Software: Sie können es unter den Klauseln folgender Lizenz verteilen und/oder modifizieren: GNU Affero General Public License veröffentlicht von der Free Software Foundation, entweder Version 3 der Lizenz, oder (es ist Ihre Wahl) eine spätere Version.
+Dieses Programm ist eine freie Software: Sie können es unter den Bedingungen folgender Lizenz verteilen und/oder modifizieren: GNU Affero General Public License veröffentlicht von der Free Software Foundation, entweder Version 3 der Lizenz, oder (es ist Ihre Wahl) eine spätere Version.
