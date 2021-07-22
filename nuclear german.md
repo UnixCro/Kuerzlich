@@ -31,7 +31,7 @@ Readme Übersetzungen:
 ## Was genau ist nuclear?
 nuclear ist ein kostenloser Streaming-Dienst, welches seinen Inhalt aus kostenlosen Quellen aus dem Internet entnimmt.
 
-Wenn Ihnen [mps-youtube](https://github.com/mps-youtube/mps-youtube) bekannt vor kommt, können sie sich vorstellen, dass nuclear so ähnlich ist, jedoch mit dem Vorteil, dass es eine GUI besitzt.
+Wenn Ihnen [mps-youtube](https://github.com/mps-youtube/mps-youtube) bekannt vor kommt, können sie sich ungefähr vorstellen, dass nuclear dem ähnelt, jedoch mit dem Vorteil, dass es eine GUI enthält.
 Es ähnelt Spotify, jedoch mit einerer größeren und vor allem kostenlosen Musikbibliothek.
 
 ## Was ist, wenn mir Electron nicht besonders gefällt?
@@ -48,10 +48,10 @@ Schauen Sie sich [das](docs/electron.md) an.
 - Stöbern nach Genre
 - Radiomodus (automatisches Einreihen ähnlicher Lieder)
 - Unlimitierte Downloads (unterstützt von Youtube)
-- Songtexte in Echtzeit
+- Wiedergabe von Songtexte in Echtzeit
 - Stöbern nach Beliebtheit
 - Liste mit Lieblingsliedern
-- Abspielen der Lokalen Bibliothek
+- Abspielen der eigenen Lokalen Bibliothek
 - Keine Konten
 - Keine Werbung
 - Kein CoC (Verhaltenskodex)
