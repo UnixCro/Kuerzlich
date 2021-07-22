@@ -202,8 +202,8 @@ Readme Übersetzungen:
 ## Was ist nuclear?
 nuclear ist ein kostenloses Musikstreamingprogramm, welches seinen Inhalt aus kostenlosen Quellen aus dem Internet entnimmt.
 
-Wenn Sie [mps-youtube](https://github.com/mps-youtube/mps-youtube) kennen, ist dies ein ähnlicher Musikplayer - jedoch mit GUI.
-Es ist so ähnlich wie Spotify, jedoch mit einerer größeren und kostenlosen Musikbibliothek.
+Wenn Ihnen [mps-youtube](https://github.com/mps-youtube/mps-youtube) bekannt vor kommt, können sie sich vorstellen, dass nuclear so ähnlich ist, jedoch mit dem Vorteil, dass dieses eine GUI besitzt.
+Es ist grundsätzlich so ähnlich wie Spotify, jedoch mit einerer größeren und kostenlosen Musikbibliothek.
 
 ## Was, wenn ich Electron überhaupt nicht ausstehen kann?
 Schauen Sie [das](docs/electron.md) an.
@@ -233,7 +233,7 @@ https://nuclearmusic.rtfd.io/
 
 ## Community-verwaltete Pakete
 
-Hier ist eine Liste von Paketen für diverse Manager, die Meisten, werden von Drittparteien instandgehalten. Wir möchten uns bei den Leuten, welche sich um die Pakete kümmern, danken.
+Hier ist eine Liste von Paketen für diverse Manager, die Meisten, werden von Drittanbietern instandgehalten. Wir möchten uns bei den Leuten, welche sich um die Pakete kümmern, rechtherzlich danken.
 
 | Pakettyp  | Link                                                    | Instandhalter                                    |
 |:--------------:|:-------------------------------------------------------:|:---------------------------------------------:|
@@ -244,9 +244,9 @@ Hier ist eine Liste von Paketen für diverse Manager, die Meisten, werden von Dr
 | Snap           | https://snapcraft.io/nuclear                            | [nukeop](https://github.com/nukeop)           |
 | Flatpak        | https://flathub.org/apps/details/org.js.nuclear.Nuclear  | [advaithm](https://github.com/advaithm)       |
 
-Vielen Dank an [ayyeve](https://github.com/ayyEve), da sie mich (advaithm) ihren Server als Kompiliermaschine benutzen lassen hat-
+Vielen Dank an [ayyeve](https://github.com/ayyEve), da sie mich (advaithm), ihren Server als Kompiliermaschine benutzen lassen hat-
 ## Community Übersetzungen
-Nuclear wurde bereits in diverse Sprachen übersetzt, wir sind immer auf der Suche an Mitwirkenden welche neue hinzufügen wollen oder Texte korrigieren möchten. Derzeit eine Liste von momentan verfügbaren Sprachen, sowie deren Übersetzern.
+Nuclear wurde bereits in diverse Sprachen übersetzt, dennoch sind wir weiterhin auf der Suche nach Mitwirkendenm, welche neue Sprachen hinzufügen wollen oder Texte korrigieren möchten. Hier ist eine Liste von derzeitigen verfügbaren Sprachen, sowie deren Übersetzern.
 
 | Sprache             | Mitwirkender                                                                                          |
 |:--------------------:|:----------------------------------------------------------------------------------------------------:|
@@ -273,7 +273,7 @@ Nuclear wurde bereits in diverse Sprachen übersetzt, wir sind immer auf der Suc
 
 ## Entwicklungsprozess
 
-Als erstes, schauen Sie sich die [Wiki Seite für Beitragende](https://github.com/nukeop/nuclear/wiki/Contributing) an.
+Als erstes, schauen Sie sich bitte die [Wiki Seite für Beitragende](https://github.com/nukeop/nuclear/wiki/Contributing) an.
 
 Benutze npm:
 ```shell
@@ -281,7 +281,7 @@ $ npm install # installs dependencies
 $ npm start
 ```
 
-Ein neues Fenster sollte sich öffnen, welches das Programm herunterlädt und Nuclear startet.
+Ein neues Fenster sollte sich öffnen, welches das Programm herunterlädt und nuclear startet.
 
 ---
 Um für das aktuelle Betriebssystem zu kompilieren:
@@ -293,9 +293,9 @@ $ npm run build
 Anstelle von `build` können Sie auch `build:all` verwenden, um für alle Betriebsysteme zu kompilieren. Die Dateien werden sich in `packages/app/release` befinden.
 
 ---
-Es ist ebenfalls möglich, die Entwicklungsumgebung, mithilfe Docker Containers zu benutzen, dies sollte jedoch als Experimentell betrachtet werden.
+Es ist ebenfalls möglich, die Entwicklungsumgebung, mithilfe "Docker Containers" zu benutzen, dies sollte jedoch als Experimentell betrachtet werden.
 
-Sie werden ebenfalls `docker` und `docker-compose` benötigen. Sie müssen dem root user eine Verbindung zum X11 Display erlauben, danach können Sie `docker-compose` verwenden.
+`docker` und `docker-compose` werden benötigen. Sie müssen dem root user eine Verbindung zum X11 Display erlauben, danach können Sie `docker-compose` verwenden.
 
 ```shell
 $ xhost SI:localuser:root
@@ -307,7 +307,7 @@ $ flatpak install flathub org.freedesktop.Platform
 $ flatpak install flathub org.freedesktop.Sdk
 $ flatpak install flathub io.atom.electron.BaseApp
 ```
-Als nächstes, um das Projekt zu kompilieren (benutzen Sie den `--verbose` Parameter, dieser dient für eine detaillierete Ausgabe):
+Als nächstes, um das Projekt zu kompilieren (benutzen Sie den `--verbose` Parameter, dieser dient für eine detaillierte Ausgabe):
 ```shell
 $ flatpak-builder build-dir org.js.nuclear.Nuclear.json
 ```
