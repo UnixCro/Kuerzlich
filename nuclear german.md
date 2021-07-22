@@ -45,11 +45,11 @@ Schauen Sie sich [das](docs/electron.md) an.
 - Aufrufen gespeicherter Playlists (als json Datei(en) gespeichert)
 - Unterstützung von Last.fm scrobbling (inklusive Aktualisierung des 'spielt jetzt' status)
 - Neueste Veröffentlichungen mit Rezensionen - Lieder und Alben
-- Stöbern nach Genre
+- Suchen nach Art 
 - Radiomodus (automatisches Einreihen ähnlicher Lieder)
 - Unlimitierte Downloads (unterstützt von Youtube)
 - Wiedergabe von Songtexte in Echtzeit
-- Stöbern nach Beliebtheit
+- Vorschau von derzeitigen Beliebheiten
 - Liste mit Lieblingsliedern
 - Abspielen der eigenen Lokalen Bibliothek
 - Keine Konten
@@ -75,7 +75,7 @@ Hier ist eine Liste, welche Pakete von Drittanbieter für die meisten Betriebsys
 
 Vielen Dank übrigens an [ayyeve](https://github.com/ayyEve), da sie mich (advaithm), ihren Server als Kompiliermaschine benutzen gelassen hat-
 ## Community Übersetzungen
-Nuclear wurde bereits in vielen Sprachen übersetzt, dennoch sind wir weiterhin auf der Suche nach neuen Mitwirkenden, die neue Sprachen hinzufügen wollen oder Texte korrigieren möchten. Hier ist eine Liste von derzeitigen verfügbaren Sprachen, sowie deren Übersetzern.
+Nuclear wurde bereits in vielen Sprachen übersetzt, dennoch sind wir weiterhin auf der Suche nach neuen Mitwirkenden, die neue Sprachen hinzufügen wollen oder Sätze korrigieren möchten. Hier ist eine Liste von derzeitigen verfügbaren Sprachen, sowie deren Übersetzern.
 
 | Sprache             | Mitwirkender                                                                                          |
 |:--------------------:|:----------------------------------------------------------------------------------------------------:|
@@ -122,7 +122,7 @@ $ npm run build
 Anstelle von `build` können Sie auch `build:all` verwenden, um für alle Betriebsysteme zu kompilieren. Die Dateien werden sich in `packages/app/release` befinden.
 
 ---
-Es ist ebenfalls möglich, die Entwicklungsumgebung, mithilfe "Docker Containers" zu benutzen, dies sollte jedoch als Experimentell betrachtet werden.
+Es ist ebenfalls möglich, die Entwicklungsumgebung, mithilfe "Docker Containers" zu benutzen, dies ist jedoch in der Entwicklungsphase.
 
 `docker` und `docker-compose` werden benötigt. Sie müssen dem root user eine Verbindung zum X11 Display erlauben, danach können Sie `docker-compose` verwenden.
 
