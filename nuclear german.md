@@ -3,7 +3,7 @@
 # ![nuclear](https://i.imgur.com/oT1006i.png) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a15c4888a63c900f6cc1/maintainability)](https://codeclimate.com/github/nukeop/nuclear/maintainability) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/30750586202742279fa8958a12e519ed)](https://www.codacy.com/app/nukeop/nuclear?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nukeop/nuclear&amp;utm_campaign=Badge_Grade) [![nuclear](https://snapcraft.io//nuclear/badge.svg)](https://snapcraft.io/nuclear) ![Travis](https://api.travis-ci.org/nukeop/nuclear.svg?branch=master)
 
-Ein Musikplayer für Rechner, mit quellenfreiem Streaming.
+Ein Musikplayer für Rechner, mit kostenlosem Streaming.
 
 ![Showcase](https://i.imgur.com/G9BqIHl.png)
 
@@ -167,4 +167,4 @@ Diese werden mit der Entwicklung des Projektes aktualisiert.
 
 ## Lizenz
 
-Dieses Programm ist eine freie Software: Sie können es unter den Bedingungen folgender Lizenz verteilen und/oder modifizieren: GNU Affero General Public License veröffentlicht von der Free Software Foundation, entweder Version 3 der Lizenz, oder (es ist Ihre Wahl) eine spätere Version.
+Dieses Programm steht unter der Lizenz "Freie Software" das bedeutet, dass sie nicht nur die Software kostenlos nutzen dürfen sondern auch verändern dürfen.
