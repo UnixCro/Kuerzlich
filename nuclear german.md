@@ -41,7 +41,7 @@ Schauen Sie sich [das](docs/electron.md) an.
 
 - Suche und Wiedergabe von Musik aus YouTube (einschließlich Integration von Playlists und [SponsorBlock](https://sponsor.ajay.app/)), Jamendo, Audius und SoundCloud
 - Suche nach Alben (unterstützt von Last.fm und Discogs), Albenansicht, automatischer Liedsuche basierend auf Künstler- und Liedname (in Arbeit, kann etwas holprig sein)
-- Musikwarteschlange, welche als Playlist exportiert werden kann
+- Musikwarteschlange, die bei Bedarf, als Playlist exportiert werden kann
 - Aufrufen gespeicherter Playlists (als json Datei(en) gespeichert)
 - Unterstützung von Last.fm scrobbling (inklusive Aktualisierung des 'spielt jetzt' status)
 - Neueste Veröffentlichungen mit Rezensionen - Lieder und Alben
@@ -62,7 +62,7 @@ https://nuclearmusic.rtfd.io/
 
 ## Community-verwaltete Pakete
 
-Hier ist eine Liste, welche Pakete von Drittanbieter für die meisten Betriebsysteme beeinhaltet. Die Meisten, werden von ihnen instandgehalten. Wir möchten uns bei den Menschen, die sich um die Pakete kümmern, rechtherzlich danken.
+Hier ist eine Liste, welche Pakete von Drittanbieter für die meisten Betriebsysteme beeinhaltet. Die Meisten, werden von ihnen instandgehalten. Wir möchten uns bei den Menschen, die sich um die Pakete kümmern, rechtherzlich bedanken.
 
 | Pakettyp  | Link                                                    | Instandhalter                                    |
 |:--------------:|:-------------------------------------------------------:|:---------------------------------------------:|
