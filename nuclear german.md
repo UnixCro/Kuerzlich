@@ -199,16 +199,16 @@ Readme Übersetzungen:
 <kbd>[<img title="Hebrew" alt="Hebrew" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/il.svg" width="22">](docs/README-he.md)</kbd>
 <kbd>[<img title="Italiano" alt="Italiano" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/it.svg" width="22">](docs/README-it.md)</kbd>
 
-## Was ist nuclear?
+## Was genau ist nuclear?
 nuclear ist ein kostenloser Streaming-Dienst, welches seinen Inhalt aus kostenlosen Quellen aus dem Internet entnimmt.
 
 Wenn Ihnen [mps-youtube](https://github.com/mps-youtube/mps-youtube) bekannt vor kommt, können sie sich vorstellen, dass nuclear so ähnlich ist, jedoch mit dem Vorteil, dass es eine GUI besitzt.
 Es ähnelt Spotify, jedoch mit einerer größeren und vor allem kostenlosen Musikbibliothek.
 
-## Was ist wenn mir Electron nicht besonders gefällt?
+## Was ist, wenn mir Electron nicht besonders gefällt?
 Schauen Sie sich [das](docs/electron.md) an.
 
-## Eigenschaften
+## Eigenschaften von nuclear
 
 - Suche und Wiedergabe von Musik aus YouTube (einschließlich Integration von Playlists und [SponsorBlock](https://sponsor.ajay.app/)), Jamendo, Audius und SoundCloud
 - Suche nach Alben (unterstützt von Last.fm und Discogs), Albenansicht, automatischer Liedsuche basierend auf Künstler- und Liedname (in Arbeit, kann etwas holprig sein)
@@ -318,7 +318,7 @@ $ flatpak-builder --run build-dir org.js.nuclear.Nuclear.json run.sh
 Sie können das Programm auf eine lokale Quelle ansetzen. Momentan kompiliert die Datei die aktuellste Veröffentlichung.
 
 ## Screenshots
-Dies wird mit der Entwicklung des Projekts aktualisiert.
+Diese werden mit der Entwicklung des Projektes aktualisiert.
 
 ![Albumsuche](https://i.imgur.com/idFVnAF.png)
 
