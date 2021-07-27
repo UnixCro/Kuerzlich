@@ -3,7 +3,7 @@
 # ![nuclear](https://i.imgur.com/oT1006i.png) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a15c4888a63c900f6cc1/maintainability)](https://codeclimate.com/github/nukeop/nuclear/maintainability) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/30750586202742279fa8958a12e519ed)](https://www.codacy.com/app/nukeop/nuclear?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nukeop/nuclear&amp;utm_campaign=Badge_Grade) [![nuclear](https://snapcraft.io//nuclear/badge.svg)](https://snapcraft.io/nuclear) ![Travis](https://api.travis-ci.org/nukeop/nuclear.svg?branch=master)
 
-Ein Musikplayer für Computer, mit kostenlosem Streaming.
+Ein Musikplayer für Computer, der kostenlos streamt.
 
 ![Showcase](https://i.imgur.com/G9BqIHl.png)
 
@@ -29,10 +29,9 @@ Readme Übersetzungen:
 <kbd>[<img title="Italiano" alt="Italiano" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/it.svg" width="22">](docs/README-it.md)</kbd>
 
 ## Was genau ist nuclear?
-nuclear ist ein kostenloser Streaming-Dienst, welches seinen Inhalt aus kostenlosen Quellen vom Internet entnimmt.
+nuclear ist ein kostenloser Streaming-Dienst, dass seinen Inhalt aus kostenlosen Quellen vom Internet bezieht.
 
-Wenn Ihnen [mps-youtube](https://github.com/mps-youtube/mps-youtube) bekannt vor kommt, können sie sich ungefähr vorstellen, dass nuclear dem ähnelt, jedoch mit dem Vorteil, dass es eine grafische Oberfläche besitzt.
-Man kann sagen, dass es so wie Spotify ist, jedoch mit einer größeren und vor allem kostenlosen Musikbibliothek.
+Nuclear ähnelt dem quelloffenen Programm [mps-youtube](https://github.com/mps-youtube/mps-youtube) sehr, hat aber den Vorteil, dass es eine benutzerfreundliche grafische Oberfläche besitzt. Für allen die dieses Programm unbekannt vor kommt, nuclear können Sie vergleichen mit Spotify, jedoch mit einer größeren und vor allem kostenlosen Musikbibliothek.
 
 ## Was ist, wenn mir Electron nicht besonders gefällt?
 Schauen Sie sich [das](docs/electron.md) an.
@@ -62,7 +61,7 @@ https://nuclearmusic.rtfd.io/
 
 ## Community-verwaltete Pakete
 
-Hier ist eine Liste, die Pakete von Drittanbieter für die meisten Betriebsysteme beeinhaltet. Die Meisten, werden von den Veröffentlichern instandgehalten. Wir bedanken uns rechtherzlich für die Bereitstellung dieser Pakete.
+Hier ist eine Liste von Drittanbietern, die Pakete für die meisten Betriebsysteme beeinhaltet. Die Meisten, werden von den Veröffentlichern instandgehalten. Wir bedanken uns rechtherzlich für die Bereitstellung dieser Pakete.
 
 | Pakettyp  | Link                                                    | Instandhalter                                    |
 |:--------------:|:-------------------------------------------------------:|:---------------------------------------------:|
@@ -75,7 +74,8 @@ Hier ist eine Liste, die Pakete von Drittanbieter für die meisten Betriebsystem
 
 Vielen Dank übrigens an [ayyeve](https://github.com/ayyEve), die mich (advaithm), ihren Server als Kompiliermaschine benutzen gelassen hat.
 ## Community Übersetzungen
-Nuclear wurde bereits in vielen Sprachen übersetzt, dennoch sind wir weiterhin auf der Suche, nach neuen Mitwirkenden, die neue Sprachen hinzufügen wollen oder die Qualität des Inhaltes oder ähnliches verbessern möchten. Hier ist eine Liste von derzeitigen verfügbaren Sprachen, sowie deren Übersetzern.
+Auch wenn Nuclear bereits in vielen Sprachen übersetzt wurde, sind wir weiterhin auf der Suche, nach neuen Mitwirkenden, die Übersetzungssprachen hinzufügen wollen oder die Qualität des Inhaltes oder ähnliches verbessern möchten. Hier ist eine Liste von derzeitigen verfügbaren Sprachen, sowie deren Übersetzern.
+
 
 | Sprache             | Mitwirkender                                                                                          |
 |:--------------------:|:----------------------------------------------------------------------------------------------------:|
@@ -85,7 +85,7 @@ Nuclear wurde bereits in vielen Sprachen übersetzt, dennoch sind wir weiterhin 
 | Dänisch               | [Hansen1992](https://github.com/Hansen1992)                                                          |
 | Spanisch              | [mlucas94](https://github.com/mlucas94), [emlautarom1](https://github.com/emlautarom1)               |
 | Polisch               | [kazimierczak-robert](https://github.com/kazimierczak-robert), [gradzka](https://github.com/gradzka) |
-| Deutsch               | [nuclear](https://github.com/nuclear), [schippas](https://github.com/schippas)                                                              |
+| Deutsch               | [nuclear](https://github.com/nuclear), [schippas](https://github.com/schippas), [UnixCro](https://github.com/UnixCro)                                                          |
 | Russisch              | [ramstore07](https://github.com/ramstore07), [dmtrshat](https://github.com/dmtrshat)                 |
 | Brazilianisches Portugiesisch | [JoaoPedroMoraes](https://github.com/JoaoPedroMoraes)                                                |
 | Türkisch              | [3DShark](https://github.com/3DShark)                                                                |
@@ -102,7 +102,7 @@ Nuclear wurde bereits in vielen Sprachen übersetzt, dennoch sind wir weiterhin 
 
 ## Entwicklungsprozess
 
-Als erstes, schauen Sie sich bitte die [Wiki Seite für Beitragende](https://github.com/nukeop/nuclear/wiki/Contributing) an.
+Bevor Sie starten, schauen Sie sich bitte als erstes [Wiki Seite für Beitragende](https://github.com/nukeop/nuclear/wiki/Contributing) an.
 
 Benutze npm:
 ```shell
@@ -144,10 +144,10 @@ Um das kompilierte Programm zu starten:
 ```shell
 $ flatpak-builder --run build-dir org.js.nuclear.Nuclear.json run.sh
 ```
-Sie können das Programm auf eine lokale Quelle ansetzen. Momentan kompiliert die Datei die aktuellste Veröffentlichung.
+Sie können das Programm auf eine lokale Quelle ansetzen. Derzeit kompiliert die Datei die aktuellste Veröffentlichung.
 
 ## Screenshots
-Diese werden mit der Entwicklung des Projektes aktualisiert.
+Die Screenshots werden bei Aktualisierungen der Software ebenfalls aktualisiert.
 
 ![Albumsuche](https://i.imgur.com/idFVnAF.png)
 
@@ -167,5 +167,4 @@ Diese werden mit der Entwicklung des Projektes aktualisiert.
 
 ## Lizenz
 
-Dieses Programm steht unter der Lizenz "Freie Software" das bedeutet, dass nicht nur die Sofzware kostenlos genutzt und weiterverbreitet werden darf, sondern auch der Urheber verpflichtet ist den Quellcode offenzulegen. Der Lizenznehmer darf diesen Quellcode dann nicht nur einsehen, sondern auch verändern und den geänderten Quellcode und die daraus resultierende Software weiterverbreiten.
-
+Dieses Programm steht unter der Lizenz "Freie Software" das bedeutet, dass nicht nur die Software kostenlos genutzt und weiterverbreitet werden darf, sondern auch der Urheber verpflichtet ist den Quellcode offenzulegen. Der Lizenznehmer darf diesen Quellcode dann nicht nur einsehen, sondern auch verändern und den geänderten Quellcode und die daraus resultierende Software weiterverbreiten.
