@@ -1,0 +1,5 @@
+tput setaf 162; echo snapelmablo; tput sgr 0; echo
+echo -n "Snapchat Username: "
+read
+echo 
+curl --silent --url https://www.snapchat.com/add/$REPLY |tr '"' '\n'|grep -i https://cf-st.sc-cdn.net/aps/snap_bitmoji |head -n 1
